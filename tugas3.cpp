@@ -18,7 +18,6 @@ int main(){
     Node *node4 = new Node;
     Node *node5 = new Node;
     
-    // circular doubly linked list
     node1->data = 10;
     node1->next = node2;
     node1->prev = node5;

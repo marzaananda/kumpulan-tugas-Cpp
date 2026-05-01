@@ -68,7 +68,8 @@ void mundur(struct Node *temp){
 	int i = 1;
 
 	while(temp != NULL){
-		cout << "Data ke " << i << ": " << temp->data << endl;
+		cout << "Data ke " << i << ": ";
+		cout<<temp->data<<endl;
 		temp = temp->prev;
 		i++;
 	}
